@@ -1,0 +1,408 @@
+/*imported*/
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato|Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    margin:0; 
+    padding: 0;
+
+}
+
+.clearfix{
+    overflow: auto 
+}
+
+.middle_bar{
+    font-family: "Open Sans";
+    height: 600px;
+    top: 190px;
+    background-color:#d4d4d4 ;
+    position: fixed;
+    left:0; 
+    width:100%;
+}
+.middle{
+    font-family: "Open Sans";
+    top: 190px;
+    background-color:#d4d4d4 ;
+    padding: 50px;
+    padding-bottom: 150px;
+  
+    
+}
+table {
+	border: 1px solid black;
+	/*border-collapse: collapse;*/
+    border-spacing: 1px;
+}
+
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+    padding: 5px;
+} 
+
+th {
+	border: 1px solid black;
+	border-collapse: collapse;
+    text-align: left;
+    padding: 5px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top_bar{
+    width:100%;
+    background: linear-gradient(#19334d, #3973ac);
+}
+
+.top_bar_links{
+    float: left;
+    width: 100%;
+    background-color:#3e3e3f;
+    display:flex; 
+    justify-content:center
+}
+
+.top_bar_links nav ul{
+    float:left;
+
+}
+
+.top_bar_links nav ul li{
+    background-color: #3e3e3f;
+    list-style: none;
+    float:left;
+    position: relative;
+    display: block;
+}
+
+.top_bar_links nav ul li:nth-child(2) img{
+    width: 20px;
+    height: 15px;
+    border: blue;
+}
+
+.top_bar_links nav ul li a{
+    color: white;
+    display: block;
+    font-family: "Open Sans";
+    font-size: 18px;
+    padding: 15px 15px;
+}
+
+.dropbtn{
+    color: #3e3e3f;
+    display: block;
+    font-family: "Open Sans";
+    font-size: 18px;
+    padding: 15px 15px;
+}
+.top_bar_links nav ul li a:hover, .dropdown:hover, .dropbtn:hover{
+    background-color:  #3973ac;
+}
+li.dropdown {
+  display: inline-block;
+   background-color: #3e3e3f;
+}
+.dropdown-content{
+      background-color: #3e3e3f;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown-content a {
+  color: #f1f1f1;
+  padding: 12px 14px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #3e3e3f;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.top_bar_links nav ul li ul{
+    position: absolute;
+    display: none;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.top_bar_links nav ul li:hover ul{
+    display: block;
+}
+
+.top_bar_links nav ul li ul li{
+    width: 250px;
+}
+
+.top_bar_links nav ul li ul li a{
+    padding: 8px 20px;
+}
+
+.site_search{
+    float:right ;
+    margin: 15px;
+    margin-top: 100px;
+    background: white;
+    border-radius: 12.5px
+}
+
+.site_search input{
+    border:none;
+    width: 150px;
+    height:25px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+.site_search input.placeholder{
+    color:    #909;
+}
+
+.site_search button{
+    border:none;
+    float:right;
+    height: 25px;
+    width: 25px;
+    background: url(../icon/search.png);
+    background-size: 25px 25px;
+}
+
+.header{
+    float:middle;
+}
+
+.header h1{
+    font-family:Ubuntu;
+    font-weight: normal;
+    font-size: 36px;
+    text-align: 20px;
+    margin-top: 15px;
+    margin-left: 30px;
+    color:white;
+}
+
+.header p{
+    font-family:"Ubuntu";
+    font-weight: normal;
+    font-size: 24px;
+    text-align: 20px;
+    color:white;
+}
+
+.image{
+    float: left;
+    margin-left: 40px;
+}
+
+.welcome_bar{
+    width: 1000px;
+    background-color: #e6e6e6;
+}
+
+.welcome_message{
+    margin: 20px;
+}
+
+.welcome_message h2{
+    margin:5px;
+    text-align: center;
+    font-family: 'Open Sans', serif;
+    font-weight:  100;
+    font-size: 30px;
+}
+
+.welcome_message p{
+    text-align: center;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.select{
+    width: 1000px;
+    background-color: lightgrey;
+}
+
+.select ul{
+    list-style: none;
+}
+
+.exam_calander{
+    text-align: center;
+    width: 500px;
+    float: left;
+}
+
+
+.card_item {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 250px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.price {
+  color: grey;
+  font-size: 22px;
+}
+
+.card_item button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card_item button:hover {
+  opacity: 0.7;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.exam_calander h2{
+    font-weight: lighter;
+    border-color: black;
+}
+
+.news{
+    text-align: center;
+    width: 500px;
+    float: right;
+}
+
+.news h2{
+    font-weight: lighter;
+}
+
+.follow{
+    height: 100px;
+    background-color: #b3b3b3;
+}
+
+.follow p{
+    font-family: "Open Sans";
+    font-weight: lighter;
+    margin-top:25px;
+    margin-right: 20px;
+    font-size: 20px;
+    float: right;
+}
+
+.icon{
+    margin: 5px;
+}
+
+.icon img {
+    float: right;
+    margin-top: 20px;
+    margin-right: 10px;
+    width: 35px;
+}
+
+.signupform{
+    width: 1000px;
+    height: 400px;
+    background-color: #e6e6e6 ;
+}
+
+.signupform table{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.signupform table tr{
+    font-family: "Open Sans";
+    padding: 10px 10px;
+
+}
+
+.signupform table tr td{
+    margin-bottom: 10px;
+
+}
+
+.footer{
+    position: fixed;
+    left:0; 
+    bottom:0;
+    padding:10px 0px 10px 0px;
+    width:100%;
+    text-align:center;
+    background-color: #3e3e3f;
+    color:white
+}
+/*===============================================================================================================================*/
+/* The sidebar menu */
+.sidenav {
+    height: 463px; /* Full-height: remove this if you want "auto" height */
+    width: 220px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 194px; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* The middle bar*/
+.middlediv{
+    font-family: "Open Sans";
+    height: 555px;
+    top: 190px;
+    margin-left: 220px; /* Same as the width of the sidebar */
+    background-color:#d4d4d4 ;
+    padding: 10px;
+}

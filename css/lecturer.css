@@ -1,0 +1,15 @@
+.middlediv form {
+	padding: 50px;
+	padding-top: 100px;
+
+}
+.success{
+	/*float: right;*/
+	margin-left: 220px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    background-color:#d4d4d4 ;
+}
+.middlediv table{
+    margin-top: 50px;
+    padding-top: 100px;
+}
